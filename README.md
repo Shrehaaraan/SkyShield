@@ -1,76 +1,120 @@
 # 🛡️ SkyShield
 
-> **AI-Powered Autonomous UAV Detection and Threat Mitigation System**
+### A SMART DRONE SWARM FOR REAL TIME UAV IDENTIFICATION AND THREAT MITIGATION
 
-SkyShield is an intelligent Counter-Unmanned Aerial Vehicle (C-UAV) system designed to detect, authenticate, track, and respond to unauthorized drones in real time. The system integrates **YOLOv8-based computer vision**, **Blockchain-based drone authentication**, **Radar emulation**, and **Edge Computing** to create a secure and scalable airspace monitoring solution.
+SkyShield is a smart real time Counter-Unmanned Aerial Vehicle (C-UAV) system that combines **Artificial Intelligence**, **Edge Computing**, **Blockchain**, and **Radar Emulation** to detect, authenticate, track, and respond to unauthorized drones in real time.
 
----
-
-# 📖 Overview
-
-The increasing use of Unmanned Aerial Vehicles (UAVs) has introduced significant security challenges around airports, military bases, and critical infrastructure.
-
-SkyShield addresses these challenges by combining multiple technologies into a single intelligent defense framework capable of:
-
-- Detecting UAVs using AI-powered computer vision
-- Authenticating drone identities using Blockchain
-- Tracking aerial objects through radar emulation
-- Visualizing threats through a real-time monitoring dashboard
-- Responding using controlled, non-destructive mitigation techniques
+Developed as a final-year B.Tech project at **Amrita Vishwa Vidyapeetham**, SkyShield demonstrates how multiple modern technologies can be integrated in real time into a unified airspace security solution.
 
 ---
 
-# ✨ Key Features
+## 🎯 Project Highlights
 
-- Real-time UAV Detection using YOLOv8
-- Blockchain-based Drone Authentication
-- Radar Emulation using Ultrasonic Sensors
-- Edge AI Inference on Raspberry Pi
-- Flask-based Monitoring Dashboard
-- Multi-sensor Data Fusion
-- Ethical Threat Mitigation
-- Secure Drone Identity Verification
+- 🚁 Real-time UAV Detection using **YOLOv8**
+- 🔗 Blockchain-based Drone Authentication using **Ethereum & Ganache**
+- 🖥️ Edge AI Inference on **Raspberry Pi**
+- 📡 Radar Emulation using **Ultrasonic Sensor + Servo Motor**
+- 🌐 Flask-based Real-time Monitoring Dashboard
+- ⚡ ESP32-based UAV Node Simulation
+- 🛡️ Secure Identity Verification & Threat Classification
 
 ---
+-  🏗️ System Architecture
 
-# 🏗️ System Architecture
+SkyShield consists of four major functional modules working together to provide intelligent UAV monitoring.
 
-> *(Architecture diagram will be added here.)*
+- Detection Layer
+  - YOLOv8 Drone Detection
+  - Radar Emulation
+
+- Processing Layer
+  - Raspberry Pi Edge Computing
+  - Real-Time Threat Analysis
+
+- Authentication Layer
+  - Ethereum Blockchain
+  - Ganache
+  - Smart Contract Verification
+
+- Monitoring Layer
+  - Flask Dashboard
+  - Live Event Logs
+  - Airspace Visualization
+
+> 📷 System Architecture diagram will be added here.
 
 ---
 
 # ⚙️ Hardware Components
 
-- Raspberry Pi 5
-- ESP32 DevKit
-- ESP32-CAM
-- HC-SR04 Ultrasonic Sensor
-- SG90 Servo Motor
-- Laser Module
-- Web Camera
+| Component | Purpose |
+|-----------|----------|
+| Raspberry Pi 5 | Edge AI Processing |
+| ESP32 DevKit | Authorized UAV Simulation |
+| ESP32 DevKit | Unauthorized UAV Simulation |
+| Web Camera | Live Video Capture |
+| HC-SR04 Ultrasonic Sensor | Radar Emulation |
+| SG90 Servo Motor | Radar Sweep |
+| Laser Module | Threat Indication |
 
 ---
 
 # 💻 Software Stack
 
-- Python
-- YOLOv8
-- OpenCV
-- Flask
-- Web3.py
-- Solidity
-- Ganache
-- Raspberry Pi OS
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python, Embedded C |
+| AI | YOLOv8, OpenCV |
+| Backend | Flask |
+| Blockchain | Ethereum, Ganache, Solidity, Web3.py |
+| Edge Computing | Raspberry Pi OS |
+| Communication | HTTP, UDP |
+| Database | SQLite |
+| IDE | VS Code |
+
+---
+
+# 🔄 System Workflow
+
+1. Capture live video using the camera.
+2. Detect UAVs using the YOLOv8 model.
+3. Collect simulated radar data.
+4. Receive UAV identity from ESP32 nodes.
+5. Verify drone identity using Ethereum Blockchain.
+6. Classify UAV as Authorized or Unauthorized.
+7. Display detection results on the Flask Dashboard.
+8. Trigger controlled threat response and event logging.
 
 ---
 
 # 📊 Results
 
-- Real-time UAV detection
-- Blockchain-based authentication
-- Radar visualization
-- Integrated monitoring dashboard
-- End-to-end prototype validation
+The implemented prototype successfully demonstrates:
+
+- Real-time UAV Detection
+- Blockchain-based Identity Verification
+- Radar-based Object Localization
+- Edge AI Deployment on Raspberry Pi
+- Integrated Dashboard Monitoring
+- End-to-End System Validation
+
+---
+
+# 📂 Repository Structure
+
+```
+SkyShield/
+│
+├── docs/
+├── images/
+├── hardware/
+├── software/
+├── dataset/
+├── results/
+├── future-work/
+├── README.md
+└── LICENSE
+```
 
 ---
 
@@ -84,23 +128,29 @@ SkyShield addresses these challenges by combining multiple technologies into a s
 
 # 🚀 Future Work
 
-- Real radar integration
-- GPS-based drone localization
-- Multi-drone swarm deployment
-- Cloud dashboard integration
-- Lightweight blockchain optimization
+- GPS-based UAV Localization
+- Real Radar Integration
+- Multi-Drone Swarm Deployment
+- Cloud-Based Monitoring Dashboard
+- Lightweight Blockchain Optimization
+- Edge AI Performance Optimization
+- Autonomous Drone Response
 
 ---
 
-# 👨‍💻 Authors
+# 👥 Authors
 
 - Shrehaaraan A
 - Manaswini K
 - Mohithaa K
-- Neeraj Raghav V
+- Neeraj Raghav V R
+
+Department of Electrical and Electronics Engineering
+
+Amrita Vishwa Vidyapeetham,Coimbatore
 
 ---
 
-## 📜 License
+# 📜 License
 
-This project is released under the MIT License.
+This project is licensed under the MIT License.
