@@ -129,17 +129,32 @@ SkyShield uses a private Ethereum blockchain (Ganache) to verify drone identitie
 
 # 📈 Experimental Results
 
-### YOLOv8 Detection
+The SkyShield UAV detection model was evaluated using standard classification metrics on the validation dataset. The results demonstrate reliable performance for real-time UAV detection and threat classification in an edge-computing environment.
+
+| Performance Metric | Score |
+|--------------------|------:|
+| **Accuracy** | **87%** |
+| **Precision** | **89%** |
+| **Recall** | **87%** |
+| **F1-Score** | **88%** |
+
+### Model Validation Curves
 
 <p align="center">
-  <img src="images/results/yolov8-detection.png" width="750">
+  <img src="images/results/yolov8-training-results.png" width="850">
 </p>
 
-### Model Validation
+*Training and validation performance of the YOLOv8 model.*
+
+---
+
+### Sample UAV Detection
 
 <p align="center">
-  <img src="images/results/yolov8-training-results.png" width="750">
+  <img src="images/results/yolov8-detection.png" width="700">
 </p>
+
+*Example of real-time UAV detection using the trained YOLOv8 model.*
 
 # 📊 Results
 The implemented prototype successfully demonstrates:
