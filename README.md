@@ -1,4 +1,11 @@
 # 🛡️ SkyShield
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-red)
+![ESP32](https://img.shields.io/badge/ESP32-IoT-green)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-5-red)
+![Flask](https://img.shields.io/badge/Flask-Web%20Dashboard-black)
+![Blockchain](https://img.shields.io/badge/Blockchain-Ethereum-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ### A SMART DRONE SWARM FOR REAL TIME UAV IDENTIFICATION AND THREAT MITIGATION
 
