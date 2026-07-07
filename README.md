@@ -1,7 +1,5 @@
 # 🛡️ SkyShield
-<p align="center">
-  <img src="./images/skyshield-banner.png.png" alt="SkyShield Banner">
-</p>
+
 ### A SMART DRONE SWARM FOR REAL TIME UAV IDENTIFICATION AND THREAT MITIGATION
 
 SkyShield is a smart real time Counter-Unmanned Aerial Vehicle (C-UAV) system that combines **Artificial Intelligence**, **Edge Computing**, **Blockchain**, and **Radar Emulation** to detect, authenticate, track, and respond to unauthorized drones in real time.
