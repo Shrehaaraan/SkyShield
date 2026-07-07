@@ -43,7 +43,9 @@ SkyShield consists of four major functional modules working together to provide 
   - Live Event Logs
   - Airspace Visualization
 
-> 📷 System Architecture diagram will be added here.
+<p align="center">
+  <img src="images/architecture/system-architecture.png" width="900">
+</p>
 
 ---
 
