@@ -1,6 +1,6 @@
 # 🛡️ SkyShield
 <p align="center">
-  <img src="./images/skyshield-banner.png" alt="SkyShield Banner">
+  <img src="./images/skyshield-banner.png.png" alt="SkyShield Banner">
 </p>
 ### A SMART DRONE SWARM FOR REAL TIME UAV IDENTIFICATION AND THREAT MITIGATION
 
