@@ -88,11 +88,55 @@ SkyShield consists of four major functional modules working together to provide 
 6. Classify UAV as Authorized or Unauthorized.
 7. Display detection results on the Flask Dashboard.
 8. Trigger controlled threat response and event logging.
-
+<p align="center">
+  <img src="images/architecture/system-workflow.png" width="900">
+</p>
 ---
 
-# 📊 Results
+# 🖥️ Monitoring Dashboard
 
+The Flask-based dashboard provides live visualization of UAV detection, radar monitoring, blockchain verification status, and event logging.
+
+<p align="center">
+  <img src="images/dashboards/dashboard-main.png" width="900">
+</p>
+
+<p align="center">
+  <img src="images/dashboards/dashboard-events.png" width="900">
+</p>
+
+# 🔗 Blockchain Integration
+
+SkyShield uses a private Ethereum blockchain (Ganache) to verify drone identities through smart contracts. Each drone is authenticated before being classified as authorized or unauthorized.
+
+<p align="center">
+  <img src="images/dashboards/blockchain-dashboard.png" width="900">
+</p>
+
+<p align="center">
+  <img src="images/dashboards/ganache-dashboard.png" width="900">
+</p>
+
+<p align="center">
+  <img src="images/dashboards/smart-contract-interface.png" width="900">
+</p>
+
+
+# 📈 Experimental Results
+
+### YOLOv8 Detection
+
+<p align="center">
+  <img src="images/results/yolov8-detection.png" width="750">
+</p>
+
+### Model Validation
+
+<p align="center">
+  <img src="images/results/yolov8-training-results.png" width="750">
+</p>
+
+# 📊 Results
 The implemented prototype successfully demonstrates:
 
 - Real-time UAV Detection
